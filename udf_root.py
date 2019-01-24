@@ -1,10 +1,10 @@
 # Exploit Title: MySQL User-Defined (Linux) x32 / x86_64 sys_exec function local privilege escalation exploit
 # Date: 24/01/2019
 # Exploit Author: d7x
-# Vendor Homepage: https://www.promiselabs.net
-# Software Link: [download link if available]
-# Version: MySQL 4.x/5.0
-# Tested on: Debian GNU/Linux 8.11
+# Vendor Homepage: https://www.mysql.com
+# Software Link: www.mysql.com
+# Version: MySQL 4.x/5.x
+# Tested on: Debian GNU/Linux 8.11 / mysql  Ver 14.14 Distrib 5.5.60, for debian-linux-gnu (x86_64) using readline 6.3
 # CVE : N/A
 
 '''
